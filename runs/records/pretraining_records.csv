@@ -1,0 +1,2 @@
+Timestamp,Base Model Name,Max Epochs,Stopped Epoch,Best Epoch,Batch Size,Grad Accumulation,Learning Rate,MLM Probability,Final Train Loss,Best Val Loss,Plot Path
+20260911_080151,bert-base-italian-uncased,50,32,28,16,1,2e-05,0.15,1.9901,1.9978394508361816,/mnt/nvme2n1/limbacheck/src/modeling/../../runs/plots/pretrain/pretrain_loss_20260911_080151.png

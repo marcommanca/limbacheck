@@ -1,0 +1,2 @@
+Timestamp,System,Avg Latency (ms),Correction F0.5,Correction Precision,Correction Recall,WER,CER,Baseline WER,Baseline CER,TP,FP,FN,TN,Failed Requests
+20260911_111816,CROS (VAR),1229.74,0.1432,0.1321,0.2152,0.2149,0.0584,0.1174,0.0226,88,578,321,3133,0

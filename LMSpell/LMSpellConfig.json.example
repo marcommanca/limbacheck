@@ -1,0 +1,35 @@
+{
+    "dataset": {
+        "seq2seq" : {
+            "inputs": "text",
+            "targets": "expected"
+        }
+    },
+    "results" : {
+        "original" : "Original",
+        "predicted" : "Corrected",
+        "expected" : "Expected"
+    },
+
+    "fix_zwj": {
+        "mbart": true, 
+        "mt5": true,
+        "mt5-xl": true,
+        "xlmr": false,
+        "gemma": false,
+        "sinbert": false,
+        "llama-I": false,
+        "llama-B": false
+    },
+
+    "google": {
+        "REFRESH_TOKEN" : <REFRESH_TOKEN>,
+        "CLIENT_SECRET" : <CLIENT_SECRET>,
+        "PROJECT_ID" : <PROJECT_ID>,
+        "FOLDER_ID" : <FOLDER_ID>
+    },
+
+    "huggingface": {
+        "TOKEN": <TOKEN>
+    }
+}

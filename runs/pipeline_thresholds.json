@@ -1,0 +1,9 @@
+{
+  "detection_threshold": 0.75,
+  "correction_threshold": -1.5,
+  "max_levenshtein_distance": 1,
+  "max_candidates": 20,
+  "source": "grid_search.py",
+  "timestamp": "20260911_080943",
+  "val_f0.5": 0.7877
+}

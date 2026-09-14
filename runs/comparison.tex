@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Comparison of the hybrid BERT pipeline, the LLM baselines, and CROS on the 160-sentence Campidanese test set.}
+\label{tab:comparison}
+\begin{tabular}{lrrrrrr}
+\toprule
+System & F0.5 Score & Precision & Recall & WER & CER & Latency (ms) \\
+\midrule
+Hybrid Pipeline (BERT) & 0.7477 & 0.8027 & 0.5868 & 0.0502 & 0.0108 & 20.8800 \\
+sardinian\_gemma\_2\_9B & 0.7348 & 0.7310 & 0.7506 & 0.0442 & 0.0122 & 2145.1500 \\
+sardinian\_llama\_3.1\_8B & 0.7132 & 0.7168 & 0.6993 & 0.0499 & 0.0154 & 1384.5200 \\
+sardinian\_llama\_3.1\_8B\_Instruct & 0.7084 & 0.7180 & 0.6724 & 0.0505 & 0.0143 & 1439.3100 \\
+sardinian\_gemma\_2\_9B\_Instruct & 0.6965 & 0.6929 & 0.7115 & 0.0508 & 0.0148 & 2197.9600 \\
+sardinian\_llama\_3.2\_3B & 0.6337 & 0.6423 & 0.6015 & 0.0634 & 0.0176 & 1180.7700 \\
+sardinian\_gemma\_2\_2B & 0.6157 & 0.6234 & 0.5868 & 0.0640 & 0.0210 & 1285.8300 \\
+sardinian\_llama\_3.2\_3B\_Instruct & 0.6071 & 0.6117 & 0.5892 & 0.0663 & 0.0222 & 1284.9400 \\
+sardinian\_llama\_3.2\_1B\_Instruct & 0.5197 & 0.5259 & 0.4963 & 0.0746 & 0.0233 & 716.6800 \\
+sardinian\_llama\_3.2\_1B & 0.5144 & 0.5192 & 0.4963 & 0.0861 & 0.0346 & 729.8900 \\
+sardinian\_gemma\_2\_2B\_Instruct & 0.1909 & 0.1636 & 0.5721 & 0.3343 & 0.2725 & 1700.7000 \\
+CROS (VAR) & 0.1432 & 0.1321 & 0.2152 & 0.2149 & 0.0584 & 1229.7400 \\
+\bottomrule
+\end{tabular}
+\end{table}

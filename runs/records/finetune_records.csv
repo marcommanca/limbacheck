@@ -1,0 +1,2 @@
+Timestamp,Base Model Name,Max Epochs,Stopped Epoch,Best Epoch,Batch Size,Grad Accumulation,Learning Rate,Final Train Loss,Best F0.5 Score,Associated Precision,Associated Recall,Associated Val Loss,Plot Path
+20260911_080314,bert-sardinian-uncased,50,9,5,16,1,5e-05,0.0768,0.892793371902007,0.9199632014719411,0.7984669434685404,0.11982153356075287,/mnt/nvme2n1/limbacheck/src/modeling/../../runs/plots/finetune/finetune_20260911_080314.png

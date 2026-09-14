@@ -1,0 +1,2 @@
+class LMSpellException(Exception):
+    pass

@@ -1,0 +1,8 @@
+__pycache__/
+*/__pycache__/
+
+LMSpellConfig.json
+
+myenv/
+unsloth_compiled_cache/
+temp.ipynb
